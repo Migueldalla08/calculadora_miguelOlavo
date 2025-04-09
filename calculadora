@@ -1,0 +1,65 @@
+let num1 = Number(prompt("Digite o primeiro numero"));
+
+let num2 = Number(prompt("Digite o segundo numero"));
+
+//somar
+function somar(num1,num2) {
+  alert("A soma é " + ( num1 + num2)) ;
+}
+somar(num1, num2);
+
+
+//subrtrair
+function subtrair(num1,num2) {
+  alert("A subtração é " + (num1 - num2));
+}
+subtrair(num1, num2);
+
+
+//dividir
+function dividir(num1,num2) {
+  alert("A divisão é " + (num1 / num2));
+}
+dividir(num1, num2);
+
+}
+//multiplicar
+function multiplicar(num1,num2) {
+  alert("A multiplicação é " + (num1 * num2));
+}
+multiplicar(num1, num2);
+
+
+//logaritmo
+function logaritmo(num1,num2) {
+  alert("O logaritmo da soma dos dois numeros é " + Math.log(num1 + num2));
+}
+logaritmo(num1,num2);
+
+
+//raizQuadrada
+function raizQuadrada(num1,num2) {
+  alert("A raiz quadrada da soma dos dois numeros é " + Math.sqrt(num1 + num2));
+}
+raizQuadrada(num1, num2);
+
+
+//resto da divisão
+function resto(num1,num2) {
+  alert("O resto da divisão é " + (num1 % num2));
+}
+resto(num1,num2);
+
+
+//raiz cubica
+function raizCubica(num1, num2){
+  alert("A raiz cubica da soma dos dois numeros é " + Math.cbrt(num1 + num2))
+}
+raizCubica(num1,num2);
+
+
+//media
+function media(num1, num2){
+  alert("A media da soma dos dois numeros é " + (num1 + num2)/2);
+}
+media(num1, num2)
